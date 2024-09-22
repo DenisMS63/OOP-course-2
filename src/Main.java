@@ -8,13 +8,10 @@ public class Main {
         Market market = new Market();
 
         market.acceptToMarket(actor1);
-//        market.takeInQueue(actor1);
 
         market.acceptToMarket(actor2);
-//        market.takeInQueue(actor2);
 
         market.acceptToMarket(actor3);
-//        market.takeInQueue(actor3);
 
         market.takeOrders();
         market.giveOrders();
